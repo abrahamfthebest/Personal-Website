@@ -18,6 +18,9 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
@@ -36,6 +39,8 @@ body {
 }
 
 main {
+  flex: 1;
+  width: 100%;
   max-width: 720px;
   margin: 0 auto;
   padding: 4rem 1.5rem;
